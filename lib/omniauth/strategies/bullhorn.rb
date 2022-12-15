@@ -10,8 +10,7 @@ module OmniAuth
         :authorize_url => 'https://universal.bullhornstaffing.com/universal-login/oauth/authorize',
         :token_url => 'https://universal.bullhornstaffing.com/universal-login/oauth/token',
         :response_type => 'code',
-        :grant_type => 'refresh_token',
-        :redirect_uri => 'https://apihandshake.com/auth_callback'
+        :grant_type => 'refresh_token'
       }
 
       option :redirect_url
